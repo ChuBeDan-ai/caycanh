@@ -1,5 +1,6 @@
 // src/components/ProductCard/index.js
 import React, { useContext, useState } from 'react';
+import { MdAddShoppingCart } from 'react-icons/md';
 import './ProductCard.scss';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../Cartcontext'; // Import CartContext
@@ -31,7 +32,7 @@ function ProductCard({ product }) {
                 </Link>
                 <div className="product_right">
                     <button className="add_to_cart" onClick={handleAddToCart}>
-                        Thêm vào giỏ hàng
+                        <MdAddShoppingCart />
                     </button>
                 </div>
             </div>

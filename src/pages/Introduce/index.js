@@ -12,23 +12,27 @@ function Introduce() {
                 </div>
                 <div className="intro_right">
                     <img src={img} alt="banner" className="right_intro_img"></img>
-                    <h2 className="intro_tilte">Giới thiệu</h2>
+                    <h2 className="intro_tilte">Về con người</h2>
                     <div className="lorem_intro">
                         <p className="p_intro">
-                            WandaVe tự hào là thương hiệu thực phẩm chất lượng cao, luôn cam kết mang đến cho bạn những
-                            sản phẩm tươi ngon, an toàn và dinh dưỡng. Chúng tôi hiểu rằng mỗi bữa ăn không chỉ đơn
-                            thuần là nguồn cung cấp năng lượng mà còn là cách để bạn chăm sóc sức khỏe và yêu thương bản
-                            thân cùng gia đình.
+                            MewPlant không chỉ đơn thuần là một nơi để mua cây cảnh, mà còn là một cộng đồng yêu cây
+                            cảnh, nơi bạn có thể trao đổi kinh nghiệm và chia sẻ niềm đam mê với những người đam mê cây
+                            cảnh khác. Chúng tôi tổ chức các buổi workshop và sự kiện liên quan đến cây cảnh để mang đến
+                            cho bạn cơ hội học hỏi và giao lưu với những người có cùng sở thích.
                         </p>
                         <p className="p_intro">
-                            Tại WandaVe, bạn sẽ tìm thấy đa dạng các loại thực phẩm từ rau củ sạch, thực phẩm hữu cơ,
-                            đến các món ăn chế biến sẵn tiện lợi, được chọn lọc kỹ càng từ những nguồn cung ứng đáng tin
-                            cậy. Chúng tôi luôn nỗ lực nâng cao chất lượng sản phẩm và dịch vụ, giúp bạn tận hưởng trải
-                            nghiệm mua sắm dễ dàng, tiện lợi và nhanh chóng.
+                            Đặc biệt, MewPlant cam kết với việc bảo vệ môi trường và phát triển bền vững. Chúng tôi ưu
+                            tiên sử dụng các phương pháp trồng cây hữu cơ và chất liệu tái chế trong việc sản xuất và
+                            đóng gói sản phẩm. Chúng tôi hy vọng rằng việc góp phần tạo ra một không gian sống xanh mát
+                            và thân thiện với môi trường sẽ truyền cảm hứng và khuyến khích mọi người tham gia vào cuộc
+                            sống xanh hơn. Tại MewPlant, chúng tôi đặt trọng tâm vào việc chăm sóc và nuôi dưỡng từng
+                            cây trồng với tình yêu và sự chuyên nghiệp.
                         </p>
                         <p className="p_intro">
-                            Hãy để WandaVe đồng hành cùng bạn trong hành trình chăm sóc sức khỏe toàn diện và mang đến
-                            bữa ăn ngon lành mỗi ngày!
+                            Chúng tôi hiểu rằng cây cảnh không chỉ là những vật trang trí tuyệt đẹp, mà còn có thể mang
+                            lại nhiều lợi ích sức khỏe và tinh thần cho chủ nhân của chúng. Vì vậy, chúng tôi cam kết
+                            mang đến cho khách hàng những loại cây cảnh tươi đẹp, khỏe mạnh và được trồng theo phương
+                            pháp hữu cơ.
                         </p>
                     </div>
                 </div>

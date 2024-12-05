@@ -1,6 +1,5 @@
 import React, { useContext, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-
 import { IoSearchSharp } from 'react-icons/io5';
 import { LiaShoppingCartSolid } from 'react-icons/lia';
 import { LuUserCircle2 } from 'react-icons/lu';
@@ -75,13 +74,15 @@ function Header() {
                 <div className="btn_header">
                     {user ? (
                         <>
-                            <div className="icon-user">
-                                <i className="">
-                                    {' '}
-                                    <LuUserCircle2 />
-                                </i>
-                                <span className="username">{user.username}</span> {/* Hiển thị tên người dùng */}
-                            </div>
+                            <Link to="/lichsu">
+                                <div className="icon-user">
+                                    <i className="">
+                                        {' '}
+                                        <LuUserCircle2 />
+                                    </i>
+                                    <span className="username">{user.username}</span> {/* Hiển thị tên người dùng */}
+                                </div>
+                            </Link>
                             <button className="btn_logout" onClick={logout}>
                                 Đăng Xuất
                             </button>

@@ -2,37 +2,36 @@
     min-height: 100vh;
     flex: 1;
 }
-.slider {
-    margin-top: 60px;
-    padding-top: 35%;
-    background: url('../../asset/slider/slidder1.webp');
-    background-position: top center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
 .anh_nen {
-    display: flex; /* Sử dụng Flexbox để căn hai phần tử con ngang hàng */
-    justify-content: space-between; /* Khoảng cách giữa hai bức ảnh */
-    gap: 20px; /* Khoảng cách giữa hai bức ảnh */
-    padding: 20px;
-    margin: 15px 20px;
+    margin-top: 100px;
+    display: flex; // Sử dụng flexbox để căn chỉnh các ảnh
+    justify-content: center; // Căn giữa các ảnh
+    align-items: center; // Căn giữa theo chiều dọc
+    overflow: hidden; // Ẩn các phần tử tràn ra ngoài
+    border-radius: 10px; // Bo tròn góc cho slider
 }
 
-.anh_nen_1,
-.anh_nen_2 {
-    position: relative;
-    width: 48%; /* Chia đều không gian cho hai bức ảnh */
-    border-radius: 10px;
-    overflow: hidden; /* Để bo tròn góc các hình ảnh */
-    transition: transform 0.3s ease;
-    &:hover {
-        transform: scale(1.02);
-    }
-}
 .anh_nen img {
-    width: 100%;
-    height: auto; /* Đảm bảo ảnh giữ đúng tỷ lệ */
-    border-radius: 10px 10px 0 0; /* Bo góc phần trên của ảnh */
+    width: 100%; // Đảm bảo ảnh chiếm toàn bộ chiều rộng
+    height: auto; // Giữ đúng tỷ lệ ảnh
+    border-radius: 10px; // Bo tròn góc cho ảnh
+}
+
+.slick-slide {
+    display: flex; // Đảm bảo các slide được căn chỉnh
+    justify-content: center; // Căn giữa
+    align-items: center; // Căn giữa theo chiều dọc
+}
+
+.slick-prev,
+.slick-next {
+    z-index: 1; // Đảm bảo nút điều hướng nằm trên các ảnh
+    color: var(--color-green); // Màu sắc cho nút điều hướng
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    color: var(--color-green-hover); // Màu sắc khi hover
 }
 .slider_2 {
     background: url(../../asset/slider/slider4.webp);

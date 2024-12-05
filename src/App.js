@@ -13,14 +13,16 @@ import SearchPage from './pages/SearchPage';
 import { CartProvider } from './components/Cartcontext';
 import { AuthProvider } from './components/AuthContext'; // Nhập AuthProvider
 import ProductDetail from './pages/ProductDetail';
+import Payment from './pages/Payment';
+import OrderConfirmation from './components/OrderConfirmation';
+import Lichsu from './pages/lichsu';
+// Nhập OrderHistory
 
 function App() {
     return (
         <AuthProvider>
-            {' '}
             {/* Bao bọc toàn bộ ứng dụng bằng AuthProvider */}
             <CartProvider>
-                {' '}
                 {/* Bao bọc toàn bộ ứng dụng bằng CartProvider */}
                 <Router>
                     <Header />
@@ -34,7 +36,11 @@ function App() {
                             <Route path="/login" element={<Login />} />
                             <Route path="/register" element={<Register />} />
                             <Route path="/cartpage" element={<Cartpage />} />
+                            <Route path="/payment" element={<Payment />} />
+                            <Route path="/order-confirmation" element={<OrderConfirmation />} />{' '}
                             <Route path="/search" element={<SearchPage />} />
+                            <Route path="/lichsu" element={<Lichsu />} />
+                            {/* Thêm route cho OrderDetails */}
                         </Routes>
                     </div>
                     <Footer />

@@ -11,13 +11,13 @@ function Footer() {
                     </div>
                     <div className="footer_info">
                         <p>
-                            Thực phẩm Organic Wandave chuyên cung cấp các thực phẩm tươi sạch, giá cả phải chằng. Đạt
-                            tiêu chuẩn chất lượng.
+                            Tại MewPlant, chúng tôi đặt trọng tâm vào việc chăm sóc và nuôi dưỡng từng cây trồng với
+                            tình yêu và sự chuyên nghiệp.
                         </p>
                         <ul>
                             <li>Địa chỉ: 566 Núi Thành - Hòa Cường Nam - Hải Châu - TP Đà Nẵng</li>
-                            <li>SĐT: 0335661795</li>
-                            <li>Gmail: hau_2251220056@dau.edu.vn</li>
+                            <li>SĐT: 0965175147</li>
+                            <li>Gmail: khang_2251220258@dau.edu.vn</li>
                         </ul>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ function Footer() {
             </footer>
             <div className="footer_logo">
                 <img src="/images/logo.webp" alt="logo" className="logo logo_footer" />
-                <p>© Copyright 2024 By Wandave. Powere by Haravan</p>
+                <p>© Copyright 2024 By Mew Plant. Powere by Haravan</p>
             </div>
         </div>
     );

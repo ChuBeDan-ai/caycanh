@@ -48,15 +48,15 @@ function Contact() {
                                 <i className="contact_street">
                                     <FaPhoneFlip />
                                 </i>
-                                <label>Số điện thoại</label>
-                                <p>033.566.1795</p>
+                                <label>0965175147</label>
+                                <p></p>
                             </ul>
                             <ul className="contact_info_list">
                                 <i className="contact_street">
                                     <MdEmail />
                                 </i>
                                 <label>Email</label>
-                                <p>hau_2251220056@dau.edu.vn</p>
+                                <p>khang_2251220258@dau.edu.vn</p>
                             </ul>
                         </div>
                     </div>

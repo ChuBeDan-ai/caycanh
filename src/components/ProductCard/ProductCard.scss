@@ -36,10 +36,11 @@
 }
 .add_to_cart {
     color: var(--color-white);
-    padding: 10px 9px;
+    padding: 6px 18px;
     background-color: var(--color-green);
     border: 1px;
     border-radius: 5px;
+    font-size: 20px;
     &:hover {
         cursor: pointer;
         background-color: var(--color-green-hover);

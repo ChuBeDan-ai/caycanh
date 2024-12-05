@@ -1,206 +1,162 @@
 const products = [
     {
         id: 1,
-        name: 'Bắp mỹ',
-        image: '/images/anh_bap.webp',
-        price: '35,000 đ',
+        name: 'Cây Dương sỉ',
+        image: '/images/cayduongsi.webp',
+        price: '50,000 đ',
         description:
-            'Bắp Mỹ Hạt được trồng và phát triển rộng ở khắp nơi trên thế giớiBắp Mỹ còn có các tên gọi khác là ngô ngọt hay bắp ngọt. Ở Châu Mỹ thì đây là cây lương thực được gieo trồng nhiều nhất và đã có các giống bắp lai ghép cho năng suất cực kỳ cao. Khoảng những năm 1990, loại bắp này đã du nhập vào nước ta rồi sau đó phát triển rộng rãi đến ngày hôm nay.',
+            'Cây dương sỉ là loại cây dễ chăm sóc, thích hợp cho những người bận rộn. Nó có khả năng sống tốt trong môi trường ánh sáng yếu và giúp làm sạch không khí.',
     },
-
     {
         id: 2,
-        name: 'Bí đỏ',
-        image: '/images/anh_bi_do.webp',
-        price: '55,000 đ',
+        name: 'Cây Kim Tiền',
+        image: '/images/caykimtien.webp',
+        price: '80,000 đ',
         description:
-            'Bí đỏ (bí ngô) là một loại bí thuộc cùng họ thực vật với dưa chuột và dưa. Về mặt kỹ thuật, đây là một loại trái cây vì nó chứa hạt giống. Nhưng về mặt dinh dưỡng, nó giống như một loại rau. Bí ngô thường có hình tròn và màu cam, mặc dù kích thước, hình dạng và màu sắc có thể thay đổi tùy theo giống. Chúng có vỏ ngoài dày, mịn và có gân. Bên trong rỗng, ngoại trừ các hạt màu ngà được phủ bằng thịt chuỗi.',
+            'Cây kim tiền mang lại tài lộc và may mắn cho gia chủ. Cây này có khả năng chịu hạn tốt và thường được trồng trong nhà để thu hút năng lượng tích cực.',
     },
     {
         id: 3,
-        name: 'Bí xanh',
-        image: '/images/anh_bi_xanh.webp',
+        name: 'Cây Bàng Singapore',
+        image: '/images/caybangsingapore.webp',
         price: '40,000 đ',
         description:
-            'Bí xanh thuộc họ bầu bí, thân dây leo, thường trồng giàn, được dùng như một loại rau trong các bữa ăn. Lá bí xanh hình bầu, bề ngang khoảng 10 - 20cm, có lông giáp. Hoa bí xanh mọc đơn, màu vàng, Quả bí xanh khi còn non màu xanh lục, vỏ phủ lớp lông tơ. Dần dần quả ngả sang màu nhạt dần, có lốm đốm trắng cùng với lớp phấn sáp. Khi già, quả bí xanh có thể dài tới 2m, bên trong có nhiều hạt. ',
+            'Cây bàng Singapore là loại cây cảnh đẹp, thích hợp trang trí. Với lá xanh tươi, cây này mang lại vẻ đẹp tự nhiên cho không gian sống.',
     },
     {
         id: 4,
-        name: 'Bưởi da xanh',
-        image: '/images/anh_buoi_da_xanh.webp',
+        name: 'Cây Kim Ngân',
+        image: '/images/caykimngan.webp',
         price: '120,000 đ',
-        category: 'fruit',
         description:
-            'Bưởi da xanh là một giống bưởi có nguồn gốc đầu tiên ở xã Thanh Tân, huyện Mỏ Cày Bắc, tỉnh Bến Tre. Trái bưởi da xanh có dạng hình cầu, nặng trung bình từ 1,2 – 2,5 kg/trái; vỏ có màu xanh đến xanh hơi vàng khi chín, dễ lột và khá mỏng (14–18 mm); tép bưởi màu hồng đỏ, bó chặt và dễ tách khỏi vách múi; vị ngọt không chua (độ brix: 9,5–12%); mùi thơm; không hạt đến khá nhiều hạt (có thể có đến 30 hạt/trái); tỷ lệ thịt/trái >55%',
+            'Cây kim ngân mang lại tài lộc và thịnh vượng. Nó thường được trồng trong nhà và được coi là biểu tượng của sự phát triển và thịnh vượng.',
     },
     {
         id: 5,
-        name: 'Cà chua',
-        image: '/images/anh_ca-chua.webp',
+        name: 'Cây Cẩm Nhung',
+        image: '/images/caycamnhung.webp',
         price: '25,000 đ',
         description:
-            'Cà chua thuộc họ Cà, các loại cây trong họ này thường phát triển từ 1 đến 3 mét chiều cao, có những cây thân mềm bò trên mặt đất hoặc dây leo trên thân cây khác, ví dụ nho. Họ cây này là một loại cây lâu năm trong môi trường sống bản địa của nó, nhưng nay nó được trồng như một loại cây hàng năm ở các vùng khí hậu ôn đới và nhiệt đới.',
+            'Cây cẩm nhung có lá đẹp, thích hợp làm cây trang trí trong nhà. Nó dễ chăm sóc và tạo điểm nhấn cho không gian sống.',
     },
     {
         id: 6,
-        name: 'Cà rốt',
-        image: '/images/anh_ca_rot.webp',
+        name: 'Cây Hồng Môn',
+        image: '/images/cayhongmon.webp',
         price: '32,000 đ',
         description:
-            'Cà rốt là loại củ chứa lượng natri vừa đủ để duy trì huyết áp ở mức hợp lý trong cơ thể. Đối với những người tiêu thụ cà rốt thường xuyên sẽ có tỷ lệ duy trì huyết áp ở mức khỏe mạnh cao hơn so với mức trung bình.',
+            'Cây Hồng Môn là loại cây cảnh đẹp, dễ chăm sóc và mang lại không khí tươi mát cho không gian sống với hoa màu hồng rực rỡ.',
     },
     {
         id: 7,
-        name: 'Cà tím',
-        image: '/images/anh_ca_tim.webp',
+        name: 'Cây Cau Tiểu Trâm',
+        image: '/images/caycautieutram.webp',
         price: '20,000 đ',
         description:
-            'Cà tím được trồng rộng rãi ở Việt Nam, chiếm 0,4% thị trường rau quả, với kim ngạch xuất khẩu hơn 6 triệu USD. Ngoài giá trị kinh tế, cà tím còn mang lại nhiều chất dinh dưỡng. Cùng tìm hiểu xem ăn cà tím có tốt không và nó tốt cho sức khỏe như thế nào nhé.',
+            'Cây Cau Tiểu Trâm là cây cảnh dễ chăm sóc, có khả năng sống tốt trong môi trường trong nhà, mang lại vẻ đẹp thanh thoát cho không gian.',
     },
     {
         id: 8,
-        name: 'Đậu bắp',
-        image: '/images/anh_dau_bap.webp',
+        name: 'Cây Hồng Hạc mini',
+        image: '/images/cayhonghacmini.webp',
         price: '22,000 đ',
         description:
-            'Đậu bắp hay còn được gọi bằng các tên khác như mướp tây, bông vàng, bắp chà hay thảo cà phê,... có nguồn gốc từ Tây Phi. Nhờ vào khả năng chịu nóng bức và khô hạn rất tốt nên chủ yếu đậu bắp được trồng ở các vùng ôn đới hay nhiệt đới, được trồng nhiều nhất là ở miền Nam Hoa Kỳ. Đậu bắp cũng được trồng ở nước ta nhưng chủ yếu vẫn là ở các tỉnh miền Nam có khí hậu nóng bức.',
+            'Cây Hồng Hạc mini là loại cây dễ trồng, có khả năng chịu nắng và tạo điểm nhấn cho không gian sống với màu sắc tươi sáng.',
     },
     {
         id: 9,
-        name: 'Dâu tây',
-        image: '/images/anh_dau-tay.webp',
+        name: 'Cây Kim Giao',
+        image: '/images/caykimgiao.webp',
         price: '90,000 đ',
-        category: 'fruit',
-        size: '1 kg',
         description:
-            'Dâu tây (Fragaria ananassa) có nguồn gốc từ châu Âu vào thế kỷ 18, có màu đỏ tươi, vị ngon ngọt và thơm. Nó chính là giống lai của hai loại dâu tây tự nhiên đến từ Bắc Mỹ và Chile. Được trồng đầu tiên ở Rome cổ đại, dâu tây hiện là loại quả mọng phổ biến nhất trên thế giới. Ở Pháp, chúng thậm chí được coi là một loại thuốc kích thích tình dục. Chúng được ví như những viên đá quý màu đỏ này rất tốt cho trái tim của bạn theo những cách khác nhau.',
+            'Cây Kim Giao là loại cây cảnh có lá xanh tươi, thường được trồng trong nhà để mang lại sự tươi mát và may mắn.',
     },
     {
         id: 10,
-        name: 'Dưa lưới',
-        image: '/images/anh_dua_luoi.webp',
+        name: 'Cây Kim Tiền',
+        image: '/images/caykimtien.webp',
         price: '100,000 đ',
-        category: 'fruit',
         description:
-            'Dưa lưới ruột xanh thuộc họ bầu bí, tên khoa học là Cucumis melo. Dưa lưới ruột xanh có dáng tròn hoặc dài tùy từng giống, mỗi quả nặng từ 1.5 - 3.5kg, lớp vỏ bên ngoài có màu xanh đan xen với các đường vân nổi màu trắng như có một lớp lưới bọc bên ngoài. Phần ruột bên trong của dưa có màu xanh nhạt, vị ngọt thanh và giòn.',
+            'Dưa lưới ruột xanh thuộc họ bầu bí, có vị ngọt thanh và giòn, là lựa chọn tuyệt vời cho những ai yêu thích trái cây tươi ngon.',
     },
     {
         id: 11,
-        name: 'Gừng',
-        image: '/images/anh_gung.webp',
+        name: 'Cây Lan Dưa Hấu',
+        image: '/images/caylanduahau.webp',
         price: '18,000 đ',
         description:
-            'Gừng là thực phẩm vô cùng quen thuộc trong mỗi gian bếp của người Việt. Trong thành phần của gừng có chứa những hợp chất quan trọng giúp cơ thể khỏe mạnh, chống lại những vi khuẩn gây bệnh từ bên ngoài môi trường. Vậy ăn gừng có tốt không? Bài viết dưới đây sẽ chỉ ra những lợi ích sức khỏe của gừng mà bạn không ngờ tới.',
+            'Cây Lan Dưa Hấu là loại cây dễ trồng, có khả năng chịu hạn tốt, thường được trồng trong các khu vườn hoặc ban công.',
     },
     {
         id: 12,
-        name: 'Nho tím',
-        image: '/images/anh_nho_tim.webp',
+        name: 'Cây Lan Ý Thủy Sinh',
+        image: '/images/caylanythuysinh.webp',
         price: '140,000 đ',
-        category: 'fruit',
         description:
-            'Nho là một loại trái cây giàu dinh dưỡng gồm các chất chống oxy hóa, vitamin và khoáng chất. Chính vì thế mà quả nho đem lại nhiều lợi ích cho sức khỏe con người. Cùng khám phá các thành phần dinh dưỡng có trong quả nhỏ và 13 lợi ích sức khỏe của việc ăn nho mà có thể bạn chưa biết.',
+            'Cây Lan Ý Thủy Sinh là loại cây dễ chăm sóc, thường được trồng trong nước. Nó có khả năng thanh lọc không khí và tạo không gian sống trong lành.',
     },
     {
         id: 13,
-        name: 'Ổi xanh',
-        image: '/images/anh_oi_xanh.webp',
+        name: 'Cây Lưỡi Hổ',
+        image: '/images/cayluoiho.webp',
         price: '50,000 đ',
-        category: 'fruit',
         description:
-            'Ổi không chỉ là trái cây sạch ăn vặt khoái khẩu của nhiều người mà nó còn có tác dụng rất lớn đối với sức khỏe con người. Nếu như ổi dầm là món ăn tuyệt vời với các bạn trẻ thì gỏi ổi, ổi dồn thịt lại là một món ăn trứ danh của một số vùng miền. Để biết các công thức chế biến ổi ngon nhất,',
+            'Cây Lưỡi Hổ là loại cây dễ sống, có khả năng chịu hạn tốt, thường được trồng trong nhà để trang trí và mang lại may mắn.',
     },
-    {
-        id: 14,
-        name: 'Ớt vàng',
-        image: '/images/anh_ot_vang.webp',
-        price: '28,000 đ',
-        description:
-            'Một trong những loại ớt đem lại hiệu quả kinh tế cao nhất là ớt sừng vàng. Người ta không những dùng chúng để ăn mà còn trồng như một loại cây cảnh bởi mỗi giai đoạn của quả có một màu đặc trưng khiến cho cây ớt sặc sỡ màu sắc',
-    },
+    // {as
+    //     id: 14,
+    //     name: 'Cây may mắn hình trái tim',
+    //     image: '/images/caymanmanhinhtraitim.webpp',
+    //     price: '28,000 đ',
+    //     description:
+    //         'Cây may mắn hình trái tim là biểu tượng của tình yêu và sự may mắn, thích hợp làm quà tặng cho người thân và bạn bè.',
+    // },
     {
         id: 15,
-        name: 'Thịt bò',
-        image: '/images/anh_thit_bo.webp',
+        name: 'Cây may mắn tài lộc',
+        image: '/images/caymaymantailoc.webp',
         price: '140,000 đ',
         description:
-            'Thịt bò là thịt của con bò (thông dụng là loại bò thịt). Đây là thực phẩm gia súc phổ biến trên thế giới, cùng với thịt lợn, được chế biến và sử dụng theo nhiều cách, trong nhiều nền văn hoá và tôn giáo khác nhau, cùng với thịt lợn và thịt gà, thịt bò là một trong những loại thịt được con người sử dụng nhiều nhất.',
+            'Cây may mắn tài lộc được cho là mang lại sự thịnh vượng và tài lộc cho gia chủ, thường được trồng trong nhà hoặc văn phòng.',
     },
     {
         id: 16,
-        name: 'Thịt heo',
-        image: '/images/anh_thit_heo.webp',
+        name: 'Cây Môn Thiên Đường',
+        image: '/images/caymonthienduong.webp',
         price: '190,000 đ',
         description:
-            'Thịt ba rọi là khúc thịt lợn được nhiều người ưa chuộng bởi có tỷ lệ mỡ nạc hài hòa và dễ chế biến thành nhiều món ăn ngon khác nhau như rim, nướng, kho, luộc, hầm hay hun khói, thịt quay... Tuy nhiên, để mua được thịt ba rọi ngon, an toàn cho sức khỏe không phải ai cũng nắm rõ.',
+            'Cây Môn Thiên Đường là loại cây có hoa đẹp, thường được trồng làm cây cảnh trong nhà và mang lại vẻ đẹp tự nhiên cho không gian.',
     },
     {
         id: 17,
-        name: 'Tôm hùm',
-        image: '/images/anh_tom_hum.webp',
+        name: 'Cây Ngân Bính',
+        image: '/images/caynganbinh.webp',
         price: '1,900,000 đ',
-        description:
-            'Tôm hùm Alaska sinh sống tại vùng biển sâu của Canada phía bắc nước Mỹ Tôm này chỉ sống tại những bãi đá ngầm, nước trong xanh, cực lạnh nên thịt tôm trắng, dai, có vị ngọt, đậm và thơm, có độ an toàn tuyệt đối. Sản phẩm tôm hùm Alaska chín như hình size khoảng 400gr - 450gr/ con , shop lựa kĩ từng con cẩn thận trước khi xuất bán ',
+        description: 'Cây Ngân Bính là loại cây cảnh quý hiếm, mang lại sự sang trọng và đẳng cấp cho không gian sống.',
     },
     {
         id: 18,
-        name: 'Nấm',
-        image: '/images/anh-nam.webp',
+        name: 'Cây sen đá',
+        image: '/images/caysenda.webp',
         price: '110,000 đ',
         description:
-            'Nấm ngọc cẩu mọc ở đâu?Trong điều kiện tự nhiên, nó phát triển ở các vùng thảo nguyên và rừng-thảo nguyên của Nga và Ukraine, cũng như ở Bắc Caucasus, Nhật Bản, Trung Quốc. Nấm mọc trên tàn tích của cây rụng lá, và được tìm thấy trên cây du. Họ thích những nơi vắng vẻ khó tiếp cận: rừng phong và sồi chết, bụi rậm rậm rạp, chặt hạ, chắn gió.Có quả từ tháng 5 đến tháng 9,',
+            'Cây sen đá là loại cây succulent dễ chăm sóc, thích hợp cho những người bận rộn và thường được trồng trong chậu nhỏ trang trí.',
     },
     {
         id: 19,
-        name: 'Trứng gà',
-        image: '/images/anh_trung_ga.jpg',
-        price: '60,000 đ',
+        name: 'Cây Phát Tài',
+        image: '/images/cayphattai.webp',
+        price: '110,000 đ',
         description:
-            'Trứng gà là nguồn thực phẩm quen thuộc hàng ngày với tất cả mọi người. Thành phần dinh dưỡng trong trứng gà không chỉ cung cấp cho cơ thể nguồn dưỡng chất tuyệt vời mà còn có công dụng hỗ trợ kiểm soát một số bệnh lý.',
+            'Cây Phát Tài được coi là biểu tượng của sự thịnh vượng và tài lộc, thường được trồng trong nhà để thu hút năng lượng tích cực.',
     },
     {
         id: 20,
-        name: 'Cá thu',
-        image: '/images/ca-thu.webp',
+        name: 'Cây Tùng Bồng Lai',
+        image: '/images/caytungbonglai.webp',
         price: '110,000 đ',
         description:
-            'Cá thu là loại cá có hương vị thịt đặc trưng không lẫn vào đâu được, hơn nữa lại mang hàm lượng dinh dưỡng cao. Chính vì thế nhiều bà nội trợ luôn lựa chọn nguyên liệu này để trổ tài biến tấu đa dạng với những món ngon vô cùng hấp dẫn trong bữa cơm hằng ngày.',
-    },
-    {
-        id: 21,
-        name: 'Dưa hấu',
-        image: '/images/dua_hau.webp',
-        price: '80,000 đ',
-        category: 'fruit',
-        description:
-            'Dưa hấu có tên khoa học là Citrullus lanatus, là một loại thực vật thuộc họ bầu bí, vỏ cứng, chứa nhiều nước, có nguồn gốc từ miền nam Châu Phi. Dưa hấu được được nhiều người ưa chuộng bởi tính ngọt mát và nhiều nước, đồng thời còn giúp cung cấp nhiều vitamin và các nguyên tố vi lượng cho cơ thể.',
-    },
-    {
-        id: 22,
-        name: 'Lựu hồng',
-        image: '/images/luu_hong.webp',
-        price: '75,000 đ',
-        category: 'fruit',
-        description:
-            'Lựu được xem là một trong những loại trái cây tốt nhất cho sức khỏe. Trong quả lựu chứa một loạt các hợp chất từ thực vật có lợi mà nhiều loại thực phẩm khác không thể so sánh được. Các nghiên cứu đã cho thấy rằng chúng có thể có nhiều lợi ích cho cơ thể và làm giảm nguy cơ mắc nhiều bệnh khác nhau. Dưới đây là 12 lợi ích sức khỏe dựa trên bằng chứng của quả lựu.',
-    },
-    {
-        id: 23,
-        name: 'Thanh long',
-        image: '/images/thanh_long.webp',
-        price: '40,000 đ',
-        category: 'fruit',
-        description:
-            'Thanh long là một loại trái cây nhiệt đới giàu giá trị dinh dưỡng. Nhiều bằng chứng cho thấy loại quả này có thể mang đến nhiều lợi ích sức khỏe đáng quý, chẳng hạn như bổ sung chất chống oxy hóa, ngăn ngừa ung thư và tăng cường sức khỏe hệ miễn dịch cho cơ thể.',
-    },
-    {
-        id: 24,
-        name: 'Vú sữa',
-        image: '/images/vu_sua.webp',
-        price: '80,000 đ',
-        category: 'fruit',
-        description:
-            'Quả của cây vú sữa là một quả mọng hình trứng hoặc hình cầu, đường kính 5–10cm, màu xanh lục chuyển sang màu vàng lục hoặc xanh tía hoặc tím khi chín. Quả vú sữa có vỏ dày, bề mặt mịn, hơi bóng, một số giống có màu tím xỉn, một số giống có màu xanh nhạt. Cùi quả vú sữa có màu trắng, mềm. Hạt được chứa trong các tế bào hạt cao su, và mỗi hạt được bao bọc bởi một lớp cùi sền sệt.',
+            'Cây Tùng Bồng Lai là loại cây cảnh đẹp, thường được trồng trong nhà hoặc sân vườn, mang lại cảm giác bình yên và thư giãn.',
     },
 ];
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 import './Sidebar.scss';
 function Sidebar({ onFilterChange, setCurrentPage }) {
     const [checkedItems, setCheckedItems] = useState({
@@ -33,71 +33,60 @@ function Sidebar({ onFilterChange, setCurrentPage }) {
     return (
         <div className="sidebar">
             <div className="sidebar-section">
-                <h3>Danh mục sản phẩm</h3>
+                <h3>Danh mục</h3>
                 <ul>
                     <li>
-                        <input
-                            type="checkbox"
-                            id="fruit"
-                            checked={checkedItems.fruit}
-                            onChange={handleCheckboxChange}
-                        />
-                        <label htmlFor="fruit">Trái Cây </label>
+                        <Link to="/" exact activeClassName="active">
+                            Trang Chủ
+                        </Link>
                     </li>
                     <li>
-                        <input
-                            type="checkbox"
-                            id="vegetables"
-                            checked={checkedItems.vegetables}
-                            onChange={handleCheckboxChange}
-                        />
-                        <label htmlFor="vegetables">Rau Củ </label>
+                        <Link to="/product" activeClassName="active">
+                            Sản Phẩm
+                        </Link>
                     </li>
                     <li>
-                        <input type="checkbox" id="meat" checked={checkedItems.meat} onChange={handleCheckboxChange} />
-                        <label htmlFor="meat">Thịt </label>
+                        <Link to="/introduce" activeClassName="active">
+                            Giới Thiệu
+                        </Link>
                     </li>
                     <li>
-                        <input
-                            type="checkbox"
-                            id="dryFood"
-                            checked={checkedItems.dryFood}
-                            onChange={handleCheckboxChange}
-                        />
-                        <label htmlFor="dry-food">Thực Phẩm Khô </label>
-                    </li>
-                    <li>
-                        <input
-                            type="checkbox"
-                            id="dessert"
-                            checked={checkedItems.dessert}
-                            onChange={handleCheckboxChange}
-                        />
-                        <label htmlFor="dessert">Bánh Ngọt </label>
+                        <Link to="/contact" activeClassName="active">
+                            Liên Hệ
+                        </Link>
                     </li>
                 </ul>
             </div>
 
             <div className="sidebar-section">
-                <h3>Thương hiệu</h3>
+                <h3>cây mới về</h3>
                 <ul>
                     <li>
                         <input
                             type="checkbox"
-                            id="farmer"
-                            checked={checkedItems.farmer}
+                            id="caybonsai"
+                            checked={checkedItems.caybonsai}
                             onChange={handleCheckboxChange}
                         />
-                        <label htmlFor="farmer">Farmer</label>
+                        <label htmlFor="caybonsai">cây bonsai</label>
                     </li>
                     <li>
                         <input
                             type="checkbox"
-                            id="bachHoa"
-                            checked={checkedItems.bachHoa}
+                            id="senda"
+                            checked={checkedItems.senda}
                             onChange={handleCheckboxChange}
                         />
-                        <label htmlFor="bach-hoa">Bách Hóa Xanh</label>
+                        <label htmlFor="senda">sen đá</label>
+                    </li>
+                    <li>
+                        <input
+                            type="checkbox"
+                            id="xuongrong"
+                            checked={checkedItems.xuongrong}
+                            onChange={handleCheckboxChange}
+                        />
+                        <label htmlFor="xuongrong">xương rồng</label>
                     </li>
                 </ul>
             </div>
@@ -153,34 +142,38 @@ function Sidebar({ onFilterChange, setCurrentPage }) {
                 </ul>
             </div>
             <div className="sidebar-section">
-                <h3>Kích thước</h3>
+                <h3>Loại</h3>
                 <ul>
                     <li>
                         <input
                             type="checkbox"
-                            id="size1"
-                            checked={checkedItems.size1}
+                            id="itnang"
+                            checked={checkedItems.itnang}
                             onChange={handleCheckboxChange}
                         />
-                        <label htmlFor="size1">1 kg</label>
+                        <label htmlFor="itnang">ít nắng</label>
                     </li>
                     <li>
                         <input
                             type="checkbox"
-                            id="size15"
-                            checked={checkedItems.size15}
+                            id="uamat"
+                            checked={checkedItems.uamat}
                             onChange={handleCheckboxChange}
                         />
-                        <label htmlFor="size2">1,5 kg</label>
+                        <label htmlFor="uamat">Ưa mát</label>
                     </li>
                     <li>
                         <input
                             type="checkbox"
-                            id="size2"
-                            checked={checkedItems.size2}
+                            id="nhieunang"
+                            checked={checkedItems.nhieunang}
                             onChange={handleCheckboxChange}
                         />
-                        <label htmlFor="size3">2 kg</label>
+                        <label htmlFor="nhieunang">Nhiều nắng</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="khac" checked={checkedItems.khac} onChange={handleCheckboxChange} />
+                        <label htmlFor="khac">Khác</label>
                     </li>
                 </ul>
             </div>

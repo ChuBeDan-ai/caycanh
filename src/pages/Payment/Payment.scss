@@ -1,0 +1,83 @@
+.payment-wrapper {
+    min-height: 100vh;
+    margin-top: 80px;
+    background: linear-gradient(135deg, #d9f7e8 0%, #a8e6cf 100%); // Gradient nền xanh lá
+    padding: 40px; // Tăng padding cho wrapper
+    border-radius: 15px; // Bo tròn góc cho wrapper
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); // Thêm độ bóng cho wrapper
+}
+
+.payment-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; // Tăng khoảng cách dưới tiêu đề
+    font-size: 32px; // Tăng kích thước chữ
+    color: #2c3e50; // Thay đổi màu chữ
+    font-weight: bold; // Đậm chữ
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); // Thêm hiệu ứng đổ bóng cho chữ
+}
+
+.payment-form {
+    width: 450px; // Giữ chiều rộng của form
+    margin: 0 auto;
+    padding: 30px; // Tăng padding cho form
+    background-color: #ffffff; // Màu nền trắng cho form
+    border-radius: 10px; // Bo tròn góc cho form
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); // Tăng độ bóng cho form
+    transition: transform 0.3s; // Thêm hiệu ứng chuyển động
+}
+
+.payment-form:hover {
+    transform: translateY(-5px); // Hiệu ứng nâng lên khi hover
+}
+
+.payment-form-header {
+    text-align: center;
+    margin-bottom: 25px; // Tăng khoảng cách dưới header
+    font-size: 26px; // Thay đổi kích thước chữ
+    color: #4caf50; // Màu xanh lá cho header
+}
+
+.form-group {
+    margin-bottom: 20px; // Tăng khoảng cách giữa các nhóm
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px; // Tăng kích thước chữ
+    font-weight: bold;
+    margin-bottom: 8px; // Tăng khoảng cách dưới label
+    color: #34495e; // Thay đổi màu chữ
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px; // Tăng padding cho input
+    font-size: 16px; // Tăng kích thước chữ
+    border-radius: 5px;
+    border: 1px solid #bdc3c7; // Thay đổi màu border
+    transition: border-color 0.3s, box-shadow 0.3s; // Thêm hiệu ứng chuyển màu border
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #4caf50; // Thay đổi màu border khi focus
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); // Thêm hiệu ứng shadow khi focus
+}
+
+.form-group button {
+    width: 100%;
+    padding: 12px; // Tăng padding cho button
+    font-size: 16px; // Tăng kích thước chữ
+    background-color: #4caf50; // Màu nền xanh lá cho button
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; // Thêm hiệu ứng chuyển màu và chuyển động
+}
+
+.form-group button:hover {
+    background-color: #66bb6a; // Màu nền khi hover
+    transform: scale(1.05); // Tăng kích thước button khi hover
+}

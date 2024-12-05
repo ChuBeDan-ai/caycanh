@@ -70,7 +70,10 @@ function Cart() {
                         <textarea className="note-cart" placeholder="ghi chú"></textarea>
                     </div>
                     <div className="cart-footer">
-                        <button className="cart-footer-btn">Thanh toán ngay</button>
+                        <Link to="/payment">
+                            <button className="cart-footer-btn">Thanh toán ngay</button>
+                        </Link>
+
                         <Link to="/product" className="link-product">
                             tiếp tục mua hàng
                         </Link>
